@@ -8,4 +8,4 @@ def home(request):
     #context={
     #    'products':products,
     # }
-    return render(request,'product/home.html',{'products':products})
+    return render(request,'./home.html',{'products':products})
